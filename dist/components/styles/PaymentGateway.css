@@ -1,0 +1,25 @@
+.app-backdrop{
+    background: rgb(0,0,0,0.3);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.payment-modal{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.modal-body{
+    height: 70%;
+    background: white;
+}

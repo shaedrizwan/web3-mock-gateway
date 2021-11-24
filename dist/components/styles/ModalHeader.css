@@ -1,0 +1,44 @@
+.modal-header{
+    height: 30%;
+    background: white;
+}
+
+.top-bar{
+    color: white;
+    text-align: end;
+    padding-right: 0.5rem;
+    background: #5B8BD9;
+    cursor: pointer;
+}
+
+.merchant-logo{
+    max-width: 65px;
+    max-height: 80px;
+    margin: 0rem 1rem;
+    flex:0.4;
+}
+
+.header-content{
+    display: flex;
+    background: #5B8BD9;
+    height: 100%;
+    color: white;
+}
+
+.header-details{
+    flex: 0.6;
+}
+
+.merchant-name{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.product-name{
+    color: rgb(219, 216, 216);
+}
+
+.product-price{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
