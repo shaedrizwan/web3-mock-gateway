@@ -1,0 +1,158 @@
+.card-container{
+    height: 100%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-topbar{
+    display: flex;
+    background: #ececee;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.topbar-title{
+    color: rgb(112, 112, 112);
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.topbar-icon{
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+}
+
+.payment-option-title{
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: rgb(90, 90, 90);
+}
+
+.input-error{
+    color: red;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.card-pay-button{
+    justify-self: flex-end;
+    background-color: #4578c9;
+    color: white;
+    font-size: 1.1rem;
+    margin-top: auto;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.cards-logo{
+    width: 150px;
+    margin: 1rem 0px 0px 0.5rem;
+}
+
+.details-container{
+    padding: 0;
+}
+
+.form-container{
+    margin-top: 1rem;
+    padding: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.input-field{
+    border: none;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding: 0.5rem 0.2rem;
+    margin: 0.8rem 0rem;
+}
+
+.input-field:focus{
+    outline: none;
+}
+
+.options-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-option{
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    margin: 1rem;
+    width: 100px;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+
+.option-success{
+    background-color: rgb(76, 197, 76);
+}
+
+.option-success:hover{
+    background-color: rgb(20, 192, 20);
+}
+
+.option-failure{
+    background-color: rgb(231, 64, 64);
+}
+
+.option-failure:hover{
+    background-color: rgb(224, 24, 24);
+}
+
+.btn-option:hover{
+    transform: scale(1.1);
+}
+
+.options-container-topbar{
+    width: 100%;
+    justify-self: flex-start;
+    margin-bottom: auto;
+    display: flex;
+    background: #ececee;
+    padding: 0.5rem 0rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.success-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.success-icon{
+    max-width: 100px;
+    max-height: fit-content;
+}
+
+.failure-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.failure-icon{
+    max-width: 100px;
+    max-height: fit-content;
+}

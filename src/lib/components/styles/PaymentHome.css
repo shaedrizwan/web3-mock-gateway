@@ -1,0 +1,44 @@
+.home-title{
+    color: gray;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.pay-grid{
+    display: flex;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(209, 209, 209);
+    margin: 1rem;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pay-grid:hover{
+    transform: scale(1.02);
+    border: 1px solid rgb(2, 2, 145);
+}
+
+.pay-grid-arrow{
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+.pay-grid-title{
+    padding-left: 0.5rem;
+}
+
+.pay-grid-logo{
+    margin-top: 0.5rem;
+}
+
+.pay-grid-title{
+    font-size: 0.9rem;
+}
+
+.home-footer{
+    text-align: center;
+    color: gray;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}

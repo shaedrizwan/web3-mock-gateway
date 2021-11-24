@@ -1,0 +1,115 @@
+.eth-container{
+    height: 100%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-topbar{
+    display: flex;
+    background: #ececee;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.topbar-title{
+    color: rgb(112, 112, 112);
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.topbar-icon{
+    color: rgb(112, 112, 112);
+    cursor: pointer;
+}
+
+.eth-menubar{
+    display: flex;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    padding: 0.5rem 0.2rem;
+}
+
+.eth-status{
+    font-size: 0.6rem;
+    padding: 0px 2px;
+    margin: 5px;
+}
+
+.status-connected{
+    border: 2px solid green;
+    border-radius: 8px;
+    color: green;
+}
+
+.status-disconnected{
+    border: 2px solid red;
+    border-radius: 8px;
+    color: red;
+}
+
+.eth-account{
+    font-size: 0.7rem;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.btn-connect{
+    border: none;
+    background: none;
+    font-size: 0.7rem;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.eth-body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.eth-error{
+    color: red;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.eth-txn-success{
+    color: green;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.eth-logo{
+    width: 100px;
+}
+
+.eth-value{
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.eth-warning{
+    color: rgb(112, 112, 112);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.eth-pay-button{
+    justify-self: flex-end;
+    background-color: #2e6bcc;
+    color: white;
+    margin-top: auto;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.eth-processing{
+    text-align: center;
+    font-size: 0.8rem;
+    cursor: progress;
+}
