@@ -1,6 +1,6 @@
 {
   "name": "web3-demo-gateway",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "description": "Demo Web3 payment gateway that supports payment with Eth",
   "author": "Shahid Rizwan",
@@ -8,6 +8,10 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [ "dist", "README.md" ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaedrizwan/web3-mock-gateway"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.11.4",
